@@ -1,0 +1,445 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #001f5c;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #000c40, #004e92);
+  color: #fff;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #b00020;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about {
+  padding: 40px 30px;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+/* Services Section */
+.services {
+  padding: 40px 30px;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Countries Section */
+.countries {
+  padding: 40px 30px;
+  background-color: #f9f9f9;
+}
+
+.countries h2 {
+  margin-bottom: 20px;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.country {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.country h3 {
+  margin-bottom: 10px;
+}
+
+.country ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #001f5c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+
+
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .logo {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.services {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e6e6e6;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+/* country-list.css */
+body { font-family: Arial; background: #fdfdfd; margin: 0; }
+header { background: #004080; color: white; padding: 20px; text-align: center; }
+nav ul { display: flex; justify-content: center; list-style: none; padding: 0; }
+nav ul li { margin: 0 15px; }
+nav ul li a { color: white; text-decoration: none; }
+.countries { padding: 60px 20px; text-align: center; background: #f0f5ff; }
+.countries h1 { margin-bottom: 30px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.country-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.country-card:hover {
+  transform: translateY(-5px);
+}
+footer { background: #002244; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+
+/* contact.css */
+body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+header { background: #004080; color: white; padding: 20px; text-align: center; }
+nav ul { display: flex; justify-content: center; list-style: none; padding: 0; margin: 0; }
+nav ul li { margin: 0 15px; }
+nav ul li a { color: white; text-decoration: none; }
+.contact-intro { text-align: center; padding: 40px 20px; background: #f0f5ff; }
+.contact-form-section { background: #ffffff; padding: 40px 20px; display: flex; justify-content: center; }
+.contact-form { width: 100%; max-width: 600px; }
+.form-group { margin-bottom: 20px; }
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  background: #004080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #003060;
+}
+.contact-details {
+  text-align: center;
+  padding: 40px 20px;
+  background: #eef2f7;
+}
+footer {
+  background: #002244;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #001f5c;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar li {
+  margin: 0 15px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #000c40, #004e92);
+  color: #fff;
+  padding: 80px 30px;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* About Section */
+.about-us {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-us .text-block {
+  flex: 1 1 50%;
+  padding-right: 30px;
+}
+.about-us .img-block {
+  flex: 1 1 40%;
+}
+.about-us img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Info Card Section */
+.info-card {
+  display: flex;
+  background-color: #f9f9f9;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-img, .card-text {
+  flex: 1 1 45%;
+}
+.card-img img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.card-text ul {
+  margin-top: 10px;
+  list-style-type: square;
+  padding-left: 20px;
+}
+.card-text button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #b00020;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Process Section */
+.process-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+.process-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.process-card {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+.process-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.process-card h3 {
+  margin-top: 10px;
+  color: #003366;
+}
+
+/* Footer */
+.footer {
+  background: #002244;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer p {
+  margin: 10px 0;
+}
